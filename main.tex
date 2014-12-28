@@ -1,0 +1,66 @@
+%%This is a very basic article template.
+%%There is just one section and two subsections.
+\documentclass{ifacconf}
+ 
+
+\usepackage{graphicx}      % include this line if your document contains figures
+\usepackage{natbib}        % required for bibliography
+\usepackage{subfigure}
+\usepackage{enumerate}
+
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{THE EMBEDDED ELECTRONICS AND SOFTWARE OF ROSA ROBOT
+\thanksref{footnoteinfo}}
+
+\thanks[footnoteinfo]{This work is supported by ESBR under contract COPPETEC
+JIRAU 151/13 6631-0002/2013 (ANEL R\&D program).}
+
+\author[1]{Renan S. Freitas}
+\author[1]{Eduardo Elael M. S.}
+\author[1]{Gabriel S. Alcantara}
+\author[2]{Julia R. Campana}
+\author[1]{Alessandro J. Peixoto}
+\author[1]{Ramon R. Costa}
+\author[3]{Sylvain Joyeux}
+\author[3]{Patrick Paranhos}
+
+  \address[1]{Electrical
+ Engineering Department, COPPE UFRJ, Rio de Janeiro, Brazil}
+  \address[2]{Professional and Technical Communication, Illinois Institute of
+  Technology, Illinois, United States} \address[3]{Research Department Robotics Innovation Center, German Research
+ Centre for Artificial Intelligence (DFKI), Bremen, Germany}
+ 
+\begin{abstract}                % Abstract of not more than 250 words.
+ROSA is a research project which endeavors to design and implement a robot for
+the monitoring and inspection of the process of inserting and removing stoplogs
+in a power plant. The proposed system is mounted on the lifting beam,
+which carries the stoplogs, and it is composed of different sensors:
+inclination, pressure, and inductive sensors for monitoring; and a profiling
+sonar with pan \& tilt system for inspection. This paper presents a general
+overview of the robot, and a description of the developed embedded electronics, power supply system,
+and software architecture. The field experiments at UHE Jirau, in Rondônia,
+Brazil, using a tablet for user interface validate the concepts considered so far.
+\end{abstract}
+
+\begin{keyword}
+field robotics; embedded electronics; robotic software architecture; sonar;
+\end{keyword}
+
+\end{frontmatter}
+
+\section{Title}
+
+\subsection{Subtitle}
+
+Plain text.
+
+\subsection{Another subtitle}
+
+More plain text.
+
+
+\end{document}
