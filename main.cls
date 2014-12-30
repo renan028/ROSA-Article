@@ -1,5 +1,5 @@
 %%
-%% This is file `ifacconf.cls',
+%% This is file `main.cls',
 %% generated with the docstrip utility.
 %%
 %% The original source files were:
@@ -19,9 +19,9 @@
 \def\filedate{2008/04/14}
 \def\fileversion{3.2ModD}
 \def\@journal{IFAC conferences}
-\def\@shortjnl{ifacconf}
+\def\@shortjnl{main}
 \def\@issn{}
-\def\@shortjid{ifacconf}
+\def\@shortjid{main}
 \def\@company{IFAC}
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 \ProvidesClass{\@shortjid}
@@ -1671,13 +1671,13 @@ et\or eu\or ew\or ex\or ey\or ez\else\@ctrerr\fi}
 \@twocolumntrue\@TwoColumntrue
 % SP 2002/04/18 set the mathindent right after specifying twocolumn output
 \mathindent=0em
-\def\ps@ifacconf{%
+\def\ps@main{%
  \let\@mkboth\@gobbletwo
  \def\@oddhead{}%
  \def\@evenhead{}%
  \def\@oddfoot{}%
  \def\@evenfoot{}}
-\pagestyle{ifacconf}
+\pagestyle{main}
 \def\ps@copyright{\let\@mkboth\@gobbletwo
   \def\@oddhead{\@logohead}
   \let\@evenhead\@oddhead
@@ -1688,7 +1688,7 @@ et\or eu\or ew\or ex\or ey\or ez\else\@ctrerr\fi}
 \@ifpackageloaded{harvard}{}{
   \RequirePackage{natbib}
   %\bibliographystyle{plainnat}
-  \bibliographystyle{ifacconf}
+  \bibliographystyle{main}
 }}
 \@bsphack
 \AtEndDocument
@@ -1729,4 +1729,4 @@ et\or eu\or ew\or ex\or ey\or ez\else\@ctrerr\fi}
 % SP 2001/08/07 Removed the new definition of \close@fm
 \endinput
 %%
-%% End of file `ifacconf.cls'.
+%% End of file `main.cls'.

@@ -1,12 +1,13 @@
 %%This is a very basic article template.
 %%There is just one section and two subsections.
-\documentclass{ifacconf}
+\documentclass{main}
  
 
 \usepackage{graphicx}      % include this line if your document contains figures
 \usepackage{natbib}        % required for bibliography
 \usepackage{subfigure}
 \usepackage{enumerate}
+\usepackage{chapterbib}
 
 
 \begin{document}
@@ -14,7 +15,7 @@
 \begin{frontmatter}
 
 \title{THE EMBEDDED ELECTRONICS AND SOFTWARE OF ROSA ROBOT
-\thanksref{footnoteinfo}}
+\thanksref{footnoteinfo}} 
 
 \thanks[footnoteinfo]{This work is supported by ESBR under contract COPPETEC
 JIRAU 151/13 6631-0002/2013 (ANEL R\&D program).}
@@ -43,16 +44,16 @@ which carries the stoplogs, and it is composed of different sensors:
 inclination, pressure, and inductive sensors for monitoring; and a profiling
 sonar with pan \& tilt system for inspection. This paper presents a general
 overview of the robot, and a description of the developed embedded electronics, power supply system,
-and software architecture. The field experiments at UHE Jirau, in Rond�nia,
+and software architecture. The field experiments at UHE Jirau, in Rond{\^o}nia,
 Brazil, using a tablet for user interface validate the concepts considered so far.
-\end{abstract}
+\end{abstract} 
 
 \begin{keyword}
 field robotics; embedded electronics; robotic software architecture; sonar;
 \end{keyword}
 
 \end{frontmatter}
- 
+
 \include{Introduction}
 \include{General Overview}
 \include{Embedded Electronics}
@@ -60,7 +61,7 @@ field robotics; embedded electronics; robotic software architecture; sonar;
 \include{Software Architecture}
 \include{Experimental tests and results}
 \include{Conclusion and Future work}
-
-\bibliography{main}
+  
+\bibliography{main} 
 \appendix
 \end{document}
