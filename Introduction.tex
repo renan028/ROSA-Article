@@ -48,58 +48,46 @@ trees along the stretch, carrying more than 500 tons of sediments every day
 \citet{jack} studies stoplogs and lifting beam's physical and
 mechanical properties. The ideal stoplog, as mentioned in the book, has a
 mechanical contact sensor, and an hydrostatic pressure regulator valve, which
-solve most of the problems with stoplogs operation. However, in \cite{pinc},
-England, a technical standard for stoplogs are proposed to manufacturing,
-cost and maintenance reasons, without sensing technology. Regarding solving
-stoplog installation problems, increasing efficiency and reducing downtime,
-companies develop robotic systems, besides of the improvement in Health,
-Safety, and Environment (HSE) conditions, as robots can replace humans in tasks
-performed in unhealthy and hazardous areas.
+solve most of the problems on stoplog operations. However, in \cite{pinc},
+England, a technical standard is proposed for
+manufacturing, cost and maintenance reasons, and without the sensing technology.
+Regarding solving stoplog installation issues, increasing efficiency and
+reducing downtime, companies develop robotic systems. Besides, robots can replace humans in tasks
+performed in unhealthy and hazardous areas, improving Health,
+Safety, and Environment (HSE) conditions.
 
+The Ontario Ministry of Natural Resources (OMNR) operates the Ivanhoe Lake Dam,
+in Ontario, Canada, to regulate water levels with stoplogs for flooding
+prevention of the downstream community of Foleyet. The dam's
+configuration posed a risk to the operators: the deck is two meters above the
+top stoplog and the operators needed to
+manually grapple it from deck level using a hook on the end of
+a pike pole, often forced to reach and feel for the log several feet inder
+waterm being exposed to hazardous conditions, high water and high flow-speed
+conditions. In 2006, Hatch, an engineering and development consultancy,
+developed a system composed of a lifting beam with submersible proximity sensors
+and submersible electric servomotors to independently actuate the hook. In 2007,
+the system was installed at Ivanhoe Lake Dam greatly improving safety by
+reducing the amount of manual handling required in this hazardous environment
+\citep{hatch}.
 
-%Guilherme: Senti falta de refs para a parte do subsea
+Similarly, the Atlas Polar log lifter automates the process of stoplog
+installation. The system is composed of an inductive sensor
+recessed in the compactor plate to sense contact with the log and a force
+sensor, stain gauge, which will indicate stoplog release or lifting
+\citep{atlas}.
 
-The MIMROex inspection robot  was developed and
-tested by the Fraunhofer Institute of Manufacturing Engineering and Automation
-(IPA). The robot is capable o.f safely navigate in offshore environments, and
-autonomously execute inspection tasks. Sensabot , a
-teleoperated inspection robot developed by Carnegie Mellon University, was
-designed for severe weather and atmosphere, being certified to operate in toxic, flammable and explosive environments. The SINTEF Topside Robotic System, developed in the robotic lab facility in
-Trondheim, Norway, is an intelligent instrumentation system designed to enable onshore operators
-to monitor and control the platform's processes .
-
-
-%The robot includes the following sensors:
-%\begin{enumerate}[i)]
-%    \item Hydrocarbon sensor
-%    \item Pan/tilt/zoom camera for remote operations
-%    \item Temperature sensors
-%    \item Vibration sensor for pumps, motors and bearings inspection
-%    \item Microphone to detect audible machinery problems
-%    \item Video camera to detect obstacles
-%\end{enumerate}
-
- 
-%In this paper, we describe the DORIS project, which aims to develop a mobile
-%robot to perform monitoring and inspection in an
-%offshore platform. To this end, the system must be able to move throughout the
-%monitored environment carrying different sensors, analyzing sensor data
-%\emph{in loco} or storing it for a posterior analysis, and interpreting the
-%results. The sensors can identify abnormalities such as intruders in restricted
-%areas, abandoned objects, smoke, fire, and liquid and gas leakages.
-%Furthermore, the robot is able to make machinery diagnosis, read instruments,
-%and takes samples using an embedded manipulator (\cite{cba}).
 
 In this paper, we present a general overview of the ROSA robot, and a detailed
 description of the embedded electronics, power supply system and software
-architecture. The robot is designed to perform monitoring and inspection tasks
-in an offshore platform, being able to move throughout the monitored
-environment carrying different sensors, analyzing sensor data \emph{in loco} or
-storing it for a posterior analysis, and interpreting the results. The sensors
-can identify abnormalities such as intruders in restricted areas, abandoned
-objects, smoke, fire, and liquid and gas leakages.
-The robot is able to make machinery diagnosis, read instruments, and takes
-samples using an embedded manipulator (\cite{cba}).
+architecture. The robot is designed to perform monitoring and inspection
+tasks of the stoplogs' stacking and retrieving process in a power
+plant. Carrying different sensors, the robot analyses sensor data \emph{in
+loco} or stores it for a posterior analysis, interprets the results, and
+sends specific data to the operator. The sensors can identify the lifting beam
+actual operation (stack/retrieve), stoplog attachment/detachment, the
+lifting beam inclination, the system depth in water, and the system has a
+profiling sonar for sediments inspection. 
 
 This text is organized as follows: a general overview of the robot and its main
 challenges are presented in Section \ref{sec:general_overview}, detailed
